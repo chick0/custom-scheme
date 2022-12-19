@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\chk]
+@="URL:chk protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\chk\Shell]
+
+[HKEY_CLASSES_ROOT\chk\Shell\Open]
+
+[HKEY_CLASSES_ROOT\chk\Shell\Open\Command]
+@="\"C:\\chick_0\\chk.exe\" \"%1\""
