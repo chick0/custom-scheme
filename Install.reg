@@ -1,12 +1,12 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_CLASSES_ROOT\chk]
-@="URL:chk protocol"
+[HKEY_CLASSES_ROOT\p-launcher]
+@="URL:p-launcher protocol"
 "URL Protocol"=""
 
-[HKEY_CLASSES_ROOT\chk\Shell]
+[HKEY_CLASSES_ROOT\p-launcher\Shell]
 
-[HKEY_CLASSES_ROOT\chk\Shell\Open]
+[HKEY_CLASSES_ROOT\p-launcher\Shell\Open]
 
-[HKEY_CLASSES_ROOT\chk\Shell\Open\Command]
-@="\"C:\\chick_0\\chk.exe\" \"%1\""
+[HKEY_CLASSES_ROOT\p-launcher\Shell\Open\Command]
+@="\"C:\\p-launcher\\client.exe\" \"%1\""

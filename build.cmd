@@ -1,9 +1,12 @@
 @ECHO OFF
 ECHO ----------------------Remove Old File----------------------
-DEL C:\chick_0\chk.exe
+DEL C:\p-launcher\client.exe
+DEL C:\p-launcher\game.exe
 ECHO ----------------------Start  Building----------------------
-pyinstaller.exe --clean --onefile chk.py
+pyinstaller.exe --clean --onefile client.py
+pyinstaller.exe --clean --onefile game.py
 ECHO ---------------------Move Build Output----------------------
-move dist\chk.exe c:\chick_0\chk.exe
+move dist\client.exe c:\p-launcher\client.exe
+move dist\game.exe c:\p-launcher\game.exe
 
 SET /p end=Press <Enter> to quit
